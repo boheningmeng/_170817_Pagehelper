@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="170817_Pagehelper:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="bssys.war">
+      <element id="artifact" artifact-name="170817_Pagehelper:war exploded" />
+    </root>
+  </artifact>
+</component>
