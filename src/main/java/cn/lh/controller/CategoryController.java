@@ -25,14 +25,14 @@ public class CategoryController {
     @Autowired
     CategoryMapper categoryMapper;
 
-    @RequestMapping("/listCategory")
+   /* @RequestMapping("/listCategory")
     public ModelAndView listCategory() {
         ModelAndView mav = new ModelAndView();
         List<Category> cs = categoryService.list();
         mav.addObject("cs", cs);
         mav.setViewName("/WEB-INF/jsp/list.jsp");
         return mav;
-    }
+    }*/
 
     @RequestMapping("/showCategory")
     public ModelAndView showCategory( @RequestParam(required=true,defaultValue="1") Integer page,
